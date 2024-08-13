@@ -60,7 +60,7 @@ Customer segmentation was performed using K-Means clustering with 3 clusters, as
 | 1       | Moderate-Cost, Low-Risk Customers  | $42.74                  | $991.12              | 0.04                      |
 | 2       | Premium Customers with Low Risk    | $92.26                  | $5052.82             | 0.08                      |
 
-### Visualizations
+## Visualizations
 Visualizations include scatter plots and box plots that illustrate the distribution of churn probability and charges across different segments, providing insights into customer behavior and segment characteristics.
 
 ## Conclusion and Recommendations
