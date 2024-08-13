@@ -38,6 +38,7 @@ Customer segmentation was performed using K-Means clustering with 3 clusters, as
       accuracy                           0.78       634
      macro avg       0.71      0.68      0.69       634
   weighted avg       0.76      0.78      0.77       634
+
 Model Optimization
 Accuracy Score: 0.7603
 Classification Report:
@@ -48,23 +49,15 @@ plaintext
     accuracy                           0.76       634
    macro avg       0.68      0.67      0.68       634
 weighted avg       0.75      0.76      0.76       634
+
 Cluster Analysis
-Cluster Descriptions
-Cluster 0: High-Cost, High-Risk Customers
 
-Average Monthly Charges: $73.39
-Average Total Charges: $1158.66
-Average Churn Probability: 0.91
-Cluster 1: Moderate-Cost, Low-Risk Customers
+| Cluster | Customer Segment                  | Average Monthly Charges | Average Total Charges | Average Churn Probability |
+|---------|-----------------------------------|-------------------------|-----------------------|---------------------------|
+| 0       | High-Cost, High-Risk Customers     | $73.39                  | $1158.66             | 0.91                      |
+| 1       | Moderate-Cost, Low-Risk Customers  | $42.74                  | $991.12              | 0.04                      |
+| 2       | Premium Customers with Low Risk    | $92.26                  | $5052.82             | 0.08                      |
 
-Average Monthly Charges: $42.74
-Average Total Charges: $991.12
-Average Churn Probability: 0.04
-Cluster 2: Premium Customers with Low Risk
-
-Average Monthly Charges: $92.26
-Average Total Charges: $5052.82
-Average Churn Probability: 0.08
 Visualizations
 Visualizations include scatter plots and box plots that illustrate the distribution of churn probability and charges across different segments, providing insights into customer behavior and segment characteristics.
 
