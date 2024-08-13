@@ -52,7 +52,7 @@ Customer segmentation was performed using K-Means clustering with 3 clusters, as
 | Macro Avg    | 0.68      | 0.67   | 0.68     | 634     |
 | Weighted Avg | 0.75      | 0.76   | 0.76     | 634     |
 
-Cluster Analysis
+## Cluster Analysis
 
 | Cluster | Customer Segment                  | Average Monthly Charges | Average Total Charges | Average Churn Probability |
 |---------|-----------------------------------|-------------------------|-----------------------|---------------------------|
@@ -63,16 +63,16 @@ Cluster Analysis
 ### Visualizations
 Visualizations include scatter plots and box plots that illustrate the distribution of churn probability and charges across different segments, providing insights into customer behavior and segment characteristics.
 
-### Conclusion and Recommendations
+## Conclusion and Recommendations
 The analysis provides a detailed understanding of customer segments and their churn risk. 
 Recommendations include:
 
-Segment 0: Implement retention strategies such as personalized offers to reduce churn.
-Segment 1: Invest in loyalty programs to strengthen customer relationships and increase lifetime value.
-Segment 2: Explore upselling opportunities and additional services to maximize revenue.
+- **Segment 0:** Implement retention strategies such as personalized offers to reduce churn.
+- **Segment 1:** Invest in loyalty programs to strengthen customer relationships and increase lifetime value.
+- **Segment 2:** Explore upselling opportunities and additional services to maximize revenue.
 
-### Contributions
+## Contributions
 Contributions are welcome. Please follow these steps to contribute:
 
-### License
+## License
 This project is licensed under the MIT License.
